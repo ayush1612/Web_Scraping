@@ -18,7 +18,7 @@ all1=soup.find_all("table",{"class":"USMN_MarketIndices"})[0]
 td=all1.find_all("td")
 l=[]
 #symbols
-for i in range(0,157,6):
+for i in range(0,len(td),6):
     d={}
 #Change net%
 
